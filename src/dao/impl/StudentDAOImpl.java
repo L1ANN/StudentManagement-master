@@ -139,8 +139,6 @@ public class StudentDAOImpl implements StudentDAO {
         String sql4 = "delete from ap_stu where stu_num=" + num;
         String sql6 = "delete from record where stu_num=" + num;
 
-        int[] result;
-
         try {
             conn = DBUtil.getConnection();
             //对于同时有多条增/删/改操作时，需要开启事务
@@ -153,14 +151,10 @@ public class StudentDAOImpl implements StudentDAO {
             st.addBatch(sql4);
             st.addBatch(sql5);
             st.addBatch(sql6);
-            result = st.executeBatch();
+            st.executeBatch();
             //上面SQL语句成功之后就通知数据库提交事务
             conn.commit();
-            if (result[0] == 1 && result[1] == 1 && result[2] == 1 && result[3] == 1 && result[4] == 1) {
-                return true;
-            } else {
-                return false;
-            }
+            return true;
 
         } catch (Exception e) {
             try {

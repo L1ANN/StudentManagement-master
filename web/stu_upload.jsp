@@ -36,6 +36,11 @@
 <c:import url="navigation.jsp" charEncoding="UTF-8"/>
 <br>
 <br>
+<div class="page-header">
+    <h1>
+        <small>新生导入</small>
+    </h1>
+</div>
 <form action="UploadExcel.do" method="post" enctype="multipart/form-data">
     <div class="container">
         <div class="form-group">
@@ -46,4 +51,11 @@
     </div>
 </form>
 </body>
+<script type="text/javascript">
+    window.onload = function () {
+        if ("${message}" != null && "${message}" != "") {
+            alert("${message}");
+        }
+    }
+</script>
 </html>

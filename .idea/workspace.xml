@@ -6,9 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a57f3f3-7225-47e5-bbf2-c0dd1a07c4c2" name="Default" comment="">
+    <list default="true" id="6a57f3f3-7225-47e5-bbf2-c0dd1a07c4c2" name="Default" comment="删除页面增加了返回stu_list的标记">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/StudentManagement_master_war_exploded/stu_list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/StudentManagement_master_war_exploded/stu_list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/impl/StudentDAOImpl.java" afterPath="$PROJECT_DIR$/src/dao/impl/StudentDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/stu_list.jsp" afterPath="$PROJECT_DIR$/web/stu_list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/stu_upload.jsp" afterPath="$PROJECT_DIR$/web/stu_upload.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,31 +34,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeleteStudentServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/controller/student/DeleteStudentServlet.java">
+      <file leaf-file-name="RecordDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/impl/RecordDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="-102">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectStudentServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/controller/student/SelectStudentServlet.java">
+      <file leaf-file-name="MajorDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/impl/MajorDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stu_list.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/stu_list.jsp">
+      <file leaf-file-name="DepartmentDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/impl/DepartmentDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="168" column="64" lean-forward="false" selection-start-line="168" selection-start-column="64" selection-end-line="168" selection-end-column="64" />
+            <state relative-caret-position="190">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/impl/ClassDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1907">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <marker date="1508854443761" expanded="true" signature="3293:3339" ph="update stude... " />
+                <marker date="1508854443761" expanded="true" signature="3382:3415" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApartmentDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/impl/ApartmentDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1964">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <marker date="1508771035639" expanded="true" signature="3517:3626" ph="update apart... " />
+                <marker date="1508771035639" expanded="true" signature="3571:3610" ph="select ap_id... ap_stu" />
+                <marker date="1508771035639" expanded="true" signature="3659:3692" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/impl/AdminDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateStudentServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/controller/student/UpdateStudentServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadExcelServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/controller/upload/UploadExcelServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2544">
+              <caret line="323" column="35" lean-forward="false" selection-start-line="323" selection-start-column="35" selection-end-line="323" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stu_upload.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/stu_upload.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stu_tuition.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/stu_tuition.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -138,10 +218,10 @@
         <option value="$PROJECT_DIR$/web/stu_majordetail.jsp" />
         <option value="$PROJECT_DIR$/web/stu_majorlist.jsp" />
         <option value="$PROJECT_DIR$/web/stu_tuition.jsp" />
-        <option value="$PROJECT_DIR$/web/stu_upload.jsp" />
         <option value="$PROJECT_DIR$/web/ap_detail.jsp" />
-        <option value="$PROJECT_DIR$/src/dao/impl/StudentDAOImpl.java" />
         <option value="$PROJECT_DIR$/web/stu_list.jsp" />
+        <option value="$PROJECT_DIR$/src/dao/impl/StudentDAOImpl.java" />
+        <option value="$PROJECT_DIR$/web/stu_upload.jsp" />
       </list>
     </option>
   </component>
@@ -550,15 +630,24 @@
       <workItem from="1508897393897" duration="42150000" />
       <workItem from="1508985501276" duration="17596000" />
       <workItem from="1509007377814" duration="14650000" />
-      <workItem from="1509071420785" duration="449000" />
+      <workItem from="1509071420785" duration="1677000" />
     </task>
+    <task id="LOCAL-00001" summary="删除页面增加了返回stu_list的标记">
+      <created>1509071943663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509071943663</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293669000" />
+    <option name="totallyTimeSpent" value="294897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -577,8 +666,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20806794" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20806794" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23354565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.190625" sideWeight="0.45174974" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -658,6 +747,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除页面增加了返回stu_list的标记" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除页面增加了返回stu_list的标记" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -686,12 +779,6 @@
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dao/impl/ClassDAOImpl.java</url>
-          <line>120</line>
-          <properties />
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/web/controller/upload/UploadExcelServlet.java</url>
           <line>155</line>
           <properties />
@@ -713,41 +800,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/web/controller/apartment/SelectApartmentServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/controller/apartment/De_AdApartmentServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/controller/classes/SelectNoClStudentServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/impl/ClassServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/UI/JumpRecordServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/UI/LoginUIServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -795,13 +847,6 @@
         <state relative-caret-position="1254">
           <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/impl/AdminDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -866,17 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/impl/ClassDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1987">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <marker date="1508854443761" expanded="true" signature="3293:3339" ph="update stude... " />
-            <marker date="1508854443761" expanded="true" signature="3382:3415" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -889,14 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/controller/upload/UploadExcelServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5871">
-          <caret line="339" column="20" lean-forward="true" selection-start-line="339" selection-start-column="20" selection-end-line="339" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1013,30 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/stu_majorlist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/stu_tuition.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/stu_upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1061,28 +1063,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/impl/StudentDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/stu_majordetail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="227" column="52" lean-forward="false" selection-start-line="227" selection-start-column="52" selection-end-line="227" selection-end-column="52" />
-          <folding>
-            <marker date="1509028176841" expanded="true" signature="4746:4855" ph="update apart... " />
-            <marker date="1509028176841" expanded="true" signature="4802:4843" ph="select ap_id... ap_stu" />
-            <marker date="1509028176841" expanded="true" signature="4881:4915" ph="delete from " />
-            <marker date="1509028176841" expanded="true" signature="4947:4980" ph="delete from " />
-            <marker date="1509028176841" expanded="true" signature="5012:5045" ph="delete from " />
-            <marker date="1509028176841" expanded="true" signature="5077:5110" ph="delete from " />
-            <marker date="1509028176841" expanded="true" signature="5142:5175" ph="delete from " />
-            <marker date="1509028176841" expanded="true" signature="6435:6478" ph="select count... ma_stu" />
-            <marker date="1509028176841" expanded="true" signature="7539:7582" ph="select count... cl_stu" />
-            <marker date="1509028176841" expanded="true" signature="8443:8483" ph="select ma_id... ma_stu" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="85" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/stu_majordetail.jsp">
+    <entry file="file://$PROJECT_DIR$/web/stu_majorlist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="-1850">
           <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding />
         </state>
@@ -1090,15 +1081,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/controller/student/DeleteStudentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/controller/student/SelectStudentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
+        <state relative-caret-position="-456">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
         </state>
@@ -1106,8 +1097,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stu_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="168" column="64" lean-forward="false" selection-start-line="168" selection-start-column="64" selection-end-line="168" selection-end-column="64" />
+        <state relative-caret-position="582">
+          <caret line="168" column="61" lean-forward="false" selection-start-line="168" selection-start-column="61" selection-end-line="168" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/impl/StudentDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="139" column="64" lean-forward="false" selection-start-line="139" selection-start-column="64" selection-end-line="139" selection-end-column="64" />
+          <folding>
+            <marker date="1509072508339" expanded="true" signature="4746:4855" ph="update apart... " />
+            <marker date="1509072508339" expanded="true" signature="4802:4843" ph="select ap_id... ap_stu" />
+            <marker date="1509072508339" expanded="true" signature="4881:4915" ph="delete from " />
+            <marker date="1509072508339" expanded="true" signature="4947:4980" ph="delete from " />
+            <marker date="1509072508339" expanded="true" signature="5012:5045" ph="delete from " />
+            <marker date="1509072508339" expanded="true" signature="5077:5110" ph="delete from " />
+            <marker date="1509072508339" expanded="true" signature="5142:5175" ph="delete from " />
+            <marker date="1509072508339" expanded="true" signature="6228:6271" ph="select count... ma_stu" />
+            <marker date="1509072508339" expanded="true" signature="7332:7375" ph="select count... cl_stu" />
+            <marker date="1509072508339" expanded="true" signature="8236:8276" ph="select ma_id... ma_stu" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/impl/RecordDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/impl/MajorDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/impl/DepartmentDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/impl/ClassDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1907">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <marker date="1508854443761" expanded="true" signature="3293:3339" ph="update stude... " />
+            <marker date="1508854443761" expanded="true" signature="3382:3415" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/impl/ApartmentDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1964">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1508771035639" expanded="true" signature="3517:3626" ph="update apart... " />
+            <marker date="1508771035639" expanded="true" signature="3571:3610" ph="select ap_id... ap_stu" />
+            <marker date="1508771035639" expanded="true" signature="3659:3692" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/impl/AdminDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/controller/student/UpdateStudentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/controller/upload/UploadExcelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2544">
+          <caret line="323" column="35" lean-forward="false" selection-start-line="323" selection-start-column="35" selection-end-line="323" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/stu_tuition.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/stu_upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
           <folding />
         </state>
       </provider>

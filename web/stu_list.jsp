@@ -166,7 +166,7 @@
     function deleted(num) {
 
         if (confirm("确定要删除该条记录吗？")) {
-            window.location.href = "DeleteStudent.do?jsp=detail&stu_num=" + num;
+            window.location.href = "DeleteStudent.do?jsp=list&stu_num=" + num;
         }
     }
 
