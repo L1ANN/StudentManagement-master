@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a57f3f3-7225-47e5-bbf2-c0dd1a07c4c2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/StudentManagement_master_war_exploded/stu_upload.jsp" afterPath="$PROJECT_DIR$/out/artifacts/StudentManagement_master_war_exploded/stu_upload.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -501,7 +500,7 @@
       <workItem from="1508985501276" duration="17596000" />
       <workItem from="1509007377814" duration="14650000" />
       <workItem from="1509071420785" duration="1793000" />
-      <workItem from="1509075884266" duration="466000" />
+      <workItem from="1509075884266" duration="549000" />
     </task>
     <task id="LOCAL-00001" summary="删除页面增加了返回stu_list的标记">
       <created>1509071943663</created>
@@ -517,11 +516,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509073183370</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="删除页面增加了返回stu_list的标记&#10;修改了删除学生的功能&#10;为stu_upload添加了页眉">
+      <created>1509076428453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1509076428453</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295479000" />
+    <option name="totallyTimeSpent" value="295562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="681" y="131" width="1229" height="989" extended-state="0" />
