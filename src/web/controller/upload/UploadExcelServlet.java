@@ -147,13 +147,14 @@ public class UploadExcelServlet extends HttpServlet {
         //获取第一个sheet页
         HSSFSheet sheetAt = hwb.getSheetAt(0);
         List<Student> students = new ArrayList<>();
-        Student stu = new Student();
+
         StudentService studentService = new StudentServiceImpl();
         if (sheetAt == null) {
             return;
         }
         //遍历行里面的单元格内容
         for (int i = 1; i <= sheetAt.getLastRowNum(); i++) {
+            Student stu = new Student();
             //得到每一行
             HSSFRow row = sheetAt.getRow(i);
             if (row == null) {
@@ -309,7 +310,7 @@ public class UploadExcelServlet extends HttpServlet {
                     if (DateUtil.isCellDateFormatted(cell)) {
                         cellValue = formatter.formatCellValue(cell);
                     } else {
-                        //数值
+                        //数值，因为Cell单元格读取数值时，即使1也会读成1.0，这里就是要验证该数值时int型还是double类型
                         double value = cell.getNumericCellValue();
                         int intValue = (int) value;
                         cellValue = value - intValue == 0 ? String.valueOf(intValue) : String.valueOf(value);
