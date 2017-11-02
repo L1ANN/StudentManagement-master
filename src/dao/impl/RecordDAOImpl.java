@@ -4,6 +4,7 @@ import dao.RecordDAO;
 import domain.Student;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.apache.commons.dbutils.handlers.ScalarHandler;
 import util.BaseUtils;
 import util.DBUtil;
 
@@ -26,15 +27,13 @@ public class RecordDAOImpl implements RecordDAO {
 
     @Override
     public int getCount(String sql, int record) {
-        conn = DBUtil.getConnection();
+        query = BaseUtils.getQueryRunner();
         int count = -1;
         try {
-            st = conn.createStatement();
-            res = st.executeQuery(sql);
-            if (res.next()) {
-                count = res.getInt(1);
-                count = (int) Math.ceil(1.0 * count / record);
-            }
+             Object obj = query.query(sql,new ScalarHandler());
+             long c = (long)obj;
+             count = (int)c;
+             count = (int)Math.ceil(1.0*count/record);
         } catch (SQLException e) {
             e.printStackTrace();
         }
